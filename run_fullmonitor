@@ -1,0 +1,12 @@
+#!/bin/bash
+
+monitor_root_path="#{appsecMonitorRootPath}"
+
+pushd .
+
+shopt -s dotglob
+find $monitor_root_path/fullmonitor.py -prune -type f | while IFS= read -r appsecmonitor_job; do
+        python3 $appsecmonitor_job
+done
+
+popd

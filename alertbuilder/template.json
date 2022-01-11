@@ -1,0 +1,16 @@
+{
+	"attachments": [
+		{
+			"color": "",
+			"blocks": [
+				{
+					"type": "header",
+					"text": {
+						"type": "plain_text",
+						"text": "AppSec Monitor Alert"
+					}
+                }
+			]
+		}
+	]
+}

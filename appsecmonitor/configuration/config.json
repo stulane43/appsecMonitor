@@ -1,0 +1,25 @@
+{    
+    "cxServer": "",
+    "cxUsername": "",
+    "cxPassword": "",
+    "cxClientSecret": "",
+    "cxFailedScansFile": "",
+    "cxTmpFailedScansFile": "",
+    "cxNewFailedScansFile": "",
+
+    "wiServer": "",
+    "wiUsername": "",
+    "wiPassword": "",
+    "wiAllScansFile": "/opt/appsecMonitor/out/dasthealth/allProjectScans.json",
+    "wiCompletedScansFile": "/opt/appsecMonitor/out/dasthealth/completedScans.json",
+    "wiFailedScansFile": "/opt/appsecMonitor/out/dasthealth/FailedScans.json",
+
+    "cxtoVerifyFile": "/opt/appsecMonitor/out/sastfindings/newFindings.json",
+    "cxTmptoVerifyFile": "/opt/appsecMonitor/out/sastfindings/tmpNewFindings.json",
+    "cxNewtoVerifyFile": "/opt/appsecMonitor/out/sastfindings/tmpNewFindings.json",
+    "cxReportsPath": "/opt/appsecMonitor/out/sastfindings/cxReports",
+
+    "slackAlertTemplate": "/opt/appsecMonitor/alertbuilder/template.json",
+    "slackAlertFile": "/opt/appsecMonitor/out/slackAlert.json",
+    "slackWebhook": ""
+}
