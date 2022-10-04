@@ -9,3 +9,6 @@ allProjectScans.json
 failedScans.json
 newFindings.json
 slackAlert.json
+
+# DS_Store
+.DS_Store
