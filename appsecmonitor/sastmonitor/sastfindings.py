@@ -6,6 +6,7 @@ from appsecmonitor.connector import Connector
 from appsecmonitor.scanparser import ScanParser
 from .checkmarx import Checkmarx
 import xml.etree.ElementTree as ET
+from defusedxml.ElementTree import parse
 import concurrent.futures
 
 class SastFindings(Connector):
@@ -33,7 +34,7 @@ class SastFindings(Connector):
         toVerify = 0
         infoToVerify = 0
         with open(formattedReport, encoding='utf-8') as scanReport:
-            tree = ET.parse(scanReport)
+            tree = parse(scanReport)
             root = tree.getroot()
             rootAttrib = root.attrib
             projectName = rootAttrib['ProjectName']
@@ -79,7 +80,7 @@ class SastFindings(Connector):
         with open(formattedReport, 'w', encoding='utf-8') as reportTemplate:
             reportTemplate.write(scanReportData['scanReport'].text)
         with open(formattedReport, encoding='utf-8') as report:
-            tree = ET.parse(report)
+            tree = parse(report)
             root = tree.getroot()
             rootAttrib = root.attrib
             for elem in rootAttrib:
