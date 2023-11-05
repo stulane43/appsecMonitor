@@ -34,27 +34,3 @@ The AppSec Monitor is an automated solution for managing and monitoring Static A
 ### Scalability
 
 - Engineered to accommodate scaling for additional projects and increased scan volumes as required.
-
-## Getting Started
-
-Instructions for setting up the AppSec Monitor in your environment will be added here.
-
-## Usage
-
-Example commands and usage of the AppSec Monitor will be provided here.
-
-## Contributing
-
-Guidelines for contributing to this project will be described here.
-
-## License
-
-Details about the licensing of the AppSec Monitor will be stated here.
-
-## Authors & Acknowledgment
-
-Credits to the team and contributors will be mentioned here.
-
-## Project Status
-
-Current status and ongoing updates of the AppSec Monitor will be tracked here.
